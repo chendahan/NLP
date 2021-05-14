@@ -223,9 +223,3 @@ def normalize_text(text):
     text = re.sub('([.,!?()])', r' \1 ', text) # Add padding
     text = re.sub('\s{2,}', ' ', text) # Remove more than two spaces
     return text
-
-def who_am_i():
-    """Returns a ductionary with your name, id number and email. keys=['name', 'id','email']
-        Make sure you return your own info!
-    """
-    return {'name': 'Chen Dahan', 'id': '204606651', 'email': 'dahac@post.bgu.ac.il'}
