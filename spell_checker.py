@@ -675,13 +675,6 @@ class Spell_Checker:
                 return ' '.join(text_split)
         return max_possibility_sentence
 
-
-def who_am_i():  # this is not a class method
-    """Returns a ductionary with your name, id number and email. keys=['name', 'id','email']
-        Make sure you return your own info!
-    """
-    return {'name': 'Chen Dahan', 'id': '204606651', 'email': 'dahac@post.bgu.ac.il'}
-
 def normalize_text(text, remove_signs = False):
     """Returns a normalized string based on the specifiy string.
        You can add default parameters as you like (they should have default values!)
