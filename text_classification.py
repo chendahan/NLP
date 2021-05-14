@@ -62,12 +62,6 @@ TFIDF_FILE = 'vectorizer_tfidf.pk'
 
 """# Pre-Process & Auxiliary Functions"""
 
-def who_am_i():
-    """Returns a ductionary with your name, id number and email. keys=['name', 'id','email']
-        Make sure you return your own info!
-    """
-    return {'name': 'Chen Dahan & Miri Yitshaki', 'id': '204606651 & 025144635', 'email': 'dahac@post.bgu.ac.il'}
-
 def load_data(path):
     """ Load csv
         Args:
